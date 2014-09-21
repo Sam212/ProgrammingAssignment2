@@ -11,7 +11,7 @@ makeCacheMatrix <- function( m = matrix() ) {
   set <- function( matrix ) {
     m <<- matrix
     i <<- NULL
-  }
+  } 
   
  
   get <- function() {
